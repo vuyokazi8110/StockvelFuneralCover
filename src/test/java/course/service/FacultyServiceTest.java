@@ -69,6 +69,5 @@ public class FacultyServiceTest extends AbstractTestNGSpringContextTests{
     public void testGetFacultyDepartmets() throws Exception {
         List<Department> departments = service.getDepatments(id);
         Assert.assertTrue(departments.size() == 2);
-
     }
 }
